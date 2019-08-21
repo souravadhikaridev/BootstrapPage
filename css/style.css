@@ -1,0 +1,75 @@
+*{box-sizing: border-box;}
+.header{
+    background: #fff;
+    box-shadow: 0px 4px 8px 0px #787878;
+}
+
+.header .navbar-brand{
+    color: red;
+    font-weight: 800;
+}
+
+.header a{
+    color: #000;
+    font-weight: bold;
+}
+
+.nav-link.active{
+    color: #1abc9c;
+    border-bottom: 2px solid #F95858;
+}
+.main-font{
+    font-family: 'Fredoka One', sans-serif;
+}
+
+#home{
+    background: #fff;
+    margin-top: 40px;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+@media(max-width: 768px)
+{
+    #home p{
+        text-align: justify;
+    }
+}
+
+#service{
+    margin-bottom: 0;
+    background-color: #ccc;
+}
+
+.clint-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.clint-pic img{
+    border-radius: 50%;
+}
+
+.clint-icon{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    color: #000;
+}
+#clints{
+    background: #fff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#prices{
+    overflow: hidden;
+}
